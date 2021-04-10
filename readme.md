@@ -1,6 +1,4 @@
-# Snowpack React
+# Sprout
 
-A starter project with React+TypeScript, Prettier+ESLint, Jest+Testing Library all preconfigured.
-[Snowpack](https://www.snowpack.dev/) runs the build... no Webpack or Create React App.
+A modern starter project.
 
-Simple and easy.
