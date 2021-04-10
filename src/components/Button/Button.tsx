@@ -1,14 +1,21 @@
+import cssclass from '@garystorey/cssclass'
 import React, { ButtonHTMLAttributes, PropsWithChildren } from 'react'
-
-import './Button.scss'
+import './Button.css'
 
 export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   PropsWithChildren<{
     as: 'primary' | 'secondary' | 'tertiary'
   }>
 
-export const Button = ({ as = 'primary', children, className = '', ...props }) => {
-  const classes = `button button-${as.toLowerCase()} ${className}`.trim()
+export function Button({
+  as = 'primary',
+  children,
+  className = '',
+  ...props
+}: ButtonProps) {
+  const classes = cssclass('button', `button-${as.toLowerCase()}`, {
+    [className]: !!className,
+  })
 
   return (
     <button type="button" className={classes} {...props}>

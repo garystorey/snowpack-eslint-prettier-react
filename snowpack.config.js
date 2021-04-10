@@ -10,7 +10,8 @@ module.exports = {
     /* ... */
   },
   plugins: [
-      "@snowpack/plugin-sass"
+    "@snowpack/plugin-react-refresh",
+    "@snowpack/plugin-postcss"
   ],
   packageOptions: {
     /* ... */
@@ -21,4 +22,11 @@ module.exports = {
   buildOptions: {
     /* ... */
   },
+  mount: {
+    public: '/',
+    src: '/dist',
+  },
+  env: {
+    /* ... */
+  }
 }
