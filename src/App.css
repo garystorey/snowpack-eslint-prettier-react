@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-size: 1.5rem;
-  max-width: 50rem;
-  margin: 2rem auto;
+  width: 50rem;
+  height: 80vh;
+  margin: 3rem auto;
 }
