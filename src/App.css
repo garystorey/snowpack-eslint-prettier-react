@@ -1,7 +1,81 @@
+:root {
+    --primary: rebeccapurple;
+    --secondary: violet;
+    --black: #333;
+    --white: #fff;
+    --neutral-1: #fcfcfc;
+    --neutral-2: #ddd;
+    --neutral-3: #ccc;
+    --neutral-4: #999;
+    --neutral-5: #666;
+}
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    line-height:1.5;
+    font-size: 100%;
+    font-family: 'Open Sans','sans-serif';
+    color: var(--primary);
+    background-color: var(--white);
+}
+
 .App {
-  text-align: center;
-  font-size: 1.5rem;
-  width: 50rem;
-  height: 80vh;
-  margin: 3rem auto;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32ch;
+    height: 37vh;
+    margin: 4rem auto 1.5rem;
+    background-color: #fcfafc;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+  }
+
+.App-info {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    margin:0;
+    padding:0;
+}
+.App-info strong {
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-family: 'Roboto Slab','serif';
+    opacity: .7;
+    font-size: 1rem;
+    margin:.25rem;
+}
+.App-def {
+    font-style: italics;
+}
+
+h1 {
+    font-size: 2.75rem;
+    color: var(--secondary);
+    font-family: 'Roboto Slab', 'serif';
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-weight: bold;
+    margin: .5rem 0 0 0;
+}
+p {
+    margin:0;
+}
+footer {
+    text-align:center;
+    width: 32ch;
+    margin: auto;
+}
+footer strong  {
+    color: red;
+}
+a {
+    color: var(--secondary);
 }

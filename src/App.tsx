@@ -3,22 +3,25 @@ import { Button } from './components'
 import './App.css'
 
 const App = () => {
-  const handleCancel = () => console.log('you clicked cancel')
-  const handleCTA = () => console.log('you clicked CTA')
+  const handleCTA = () => {}
 
   return (
+      <>
     <section className="App">
       <h1>Onset</h1>
-      <p>Simple and easy.</p>
-      <div className="button-row">
-        <Button as="tertiary" onClick={handleCancel}>
-          Cancel
-        </Button>
-        <Button as="primary" onClick={handleCTA}>
-          Let's Go!
-        </Button>
+      <div className="App-info">
+        <span>[<em>änˌset</em>, <em>ônˌset</em>]</span>
+        <strong>noun</strong>
       </div>
+      <div className="App-def">
+    the beginning of something, especially something
+        unpleasant.
+        </div>
     </section>
+    <footer>
+        Made with <strong>❤</strong> on <a rel="noopener noreferrer" href="https://github.com/garystorey/onset" target="_blank">Github</a>
+    </footer>
+    </>
   )
 }
 
