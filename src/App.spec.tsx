@@ -12,24 +12,28 @@ describe('App', () => {
         <h1>
           Onset
         </h1>
-        <p>
-          Simple and easy.
-        </p>
         <div
-          class="button-row"
+          class="App-info"
         >
-          <button
-            class="button button-tertiary"
-            type="button"
-          >
-            Cancel
-          </button>
-          <button
-            class="button button-primary"
-            type="button"
-          >
-            Let's Go!
-          </button>
+          <span>
+            [
+            <em>
+              änˌset
+            </em>
+            , 
+            <em>
+              ônˌset
+            </em>
+            ]
+          </span>
+          <strong>
+            noun
+          </strong>
+        </div>
+        <div
+          class="App-def"
+        >
+          the beginning of something, especially something unpleasant.
         </div>
       </section>
     `)
