@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <section className="App">
-      <h1>Sprout</h1>
+      <h1>Onset</h1>
       <p>Simple and easy.</p>
       <div className="button-row">
         <Button as="tertiary" onClick={handleCancel}>
