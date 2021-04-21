@@ -1,4 +1,4 @@
 # Sprout Starter
 
-A modern starter project.
+A modern React starter project.
 
