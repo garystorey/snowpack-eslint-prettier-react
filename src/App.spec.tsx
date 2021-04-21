@@ -10,10 +10,10 @@ describe('App', () => {
         class="App"
       >
         <h1>
-          Snowpack React
+          Onset
         </h1>
         <p>
-          A starter template for using Snowpack with React, TypeScript, Prettier, ESLint, Jest, and testing library. Simple and easy.
+          Simple and easy.
         </p>
         <div
           class="button-row"
