@@ -1,7 +1,7 @@
 {
   "name": "onset",
-  "version": "0.4.0",
-  "description": "A modern React/Typescript starter",
+  "version": "0.2.0",
+  "description": "Onset - A modern React starter",
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev --polyfill-node",
@@ -10,7 +10,7 @@
     "test": "jest --watch",
     "pretty": "npx prettier './src/**/*.*' --write"
   },
-  "keywords": [],
+  "keywords": ["react","typescript","eslint","prettier","snowpack","postcss"],
   "author": "Gary Storey",
   "license": "MIT",
   "devDependencies": {
