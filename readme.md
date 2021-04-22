@@ -10,11 +10,13 @@ A modern React starter project.
 
 ## Installation
 
-You can install either with `npm` or `yarn`:
+- Clone the repo
+- Install dependencies
 
 ```js
-npm install onsetjs
-
-yarn add onsetjs
+git clone https://github.com/garystorey/onset.git MyAwesomeProject
+npm install
+// or
+yarn
 
 ```
