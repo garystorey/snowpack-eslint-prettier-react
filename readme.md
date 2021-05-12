@@ -11,10 +11,15 @@ A modern React starter project.
 ## Installation
 
 - Clone the repo
+- Initialize a git repository
 - Install dependencies
 
-```js
+```bash
+// clone the repo
 git clone https://github.com/garystorey/onset.git MyAwesomeProject
+// initialize a new repository
+git init
+// install dependencies
 npm install
 // or
 yarn
