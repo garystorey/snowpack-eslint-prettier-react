@@ -8,6 +8,8 @@ A modern React starter project.
 
 ![Keywords](https://img.shields.io/github/package-json/keywords/garystorey/onset)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31c25fc8-8642-4199-a81f-bd361ce13f6a/deploy-status)](https://app.netlify.com/sites/snackbox/deploys)
+
 ## Installation
 
 - Clone the repo
