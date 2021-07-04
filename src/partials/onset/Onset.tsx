@@ -21,7 +21,7 @@ export function Onset() {
         Made with <strong>❤</strong>
       </footer>
       <a
-        href="https://your-url"
+        href="https://github.com/garystorey/onset"
         className="github-corner"
         aria-label="View source on GitHub"
       >
