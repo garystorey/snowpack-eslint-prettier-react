@@ -36,6 +36,15 @@ body {
   filter: drop-shadow(2px 2px 2px rgba(125, 200, 125, 0.2));
 }
 
+.onset-github {
+  fill: var(--secondary);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
 .onset header {
   display: flex;
   flex-direction: column;
